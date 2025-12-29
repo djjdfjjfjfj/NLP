@@ -26,6 +26,7 @@ python script.py -c <category> [-s] | -l [-o]
 
 ！！！推荐使用离线模式，离线模式为我后期改进功能，不需要国外网络，如需使用在线功能，请确保连接国外网络并确保已安装ChromeDriver，并在脚本中的CHROMEDRIVER_PATH变量中正确设置路径！！！！
 
+先执行
 
 1. 列出所有可用的任务类别（离线模式）
 
@@ -84,5 +85,6 @@ python evals.py --file <CSV文件> [--eval <指标>] [--save] [--offline]
 python evals.py --file Summarization.csv --eval all --save
 python evals.py --file Summarization.csv --eval popularity_level --save
 python evals.py --file Translation_offline.csv --eval all --save --offline
+
 
 
